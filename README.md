@@ -1,6 +1,6 @@
 # FT-Task01
 
-**The site is available on Github Pages on https://nourzohry.github.io/FT-Task01/ **
+**The site is available on Github Pages** on https://nourzohry.github.io/FT-Task01/ 
 
 The task is an HTML and CSS exercise to replicate the following page. (Responsive web design is not included.)
 
