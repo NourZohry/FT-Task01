@@ -1,0 +1,181 @@
+/* General */
+
+@font-face {
+    font-family: WFont;
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: WFont;
+    background-color: #fffcf9;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 1%;
+}
+
+p {
+    font-size: 11px;
+    color: #747476;
+}
+
+/* Navbar */
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2%;
+    width: 84vw;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.navbar a:link {
+    color: #696468;
+}
+
+/* .navbar a:visited {
+    color: purple;
+} */
+
+.navbar a:hover {
+    color: blue;
+}
+
+.navbar-right {
+    float: right;
+    margin-top: 10px;
+}
+
+/* Main Grid */
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 2%;
+}
+
+.main-grid-left {
+    grid-template-rows: 50% 50%;
+}
+
+.main-grid-left-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.main-grid-down {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* gap: 30px; */
+}
+
+.tagline {
+    font-size: 54px;
+    line-height: 1;
+    margin-right: 5px;
+}
+
+.tagline-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-left: 5px;
+}
+
+.read-more-button {
+    background-color: #fb5659;
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.read-more-button:hover {
+    cursor: pointer;
+}
+
+.read-more-button:active {
+    background-color: lightpink;
+}
+
+.main-grid-right {
+    /* margin: 10px; */
+    padding: 25px;
+    background-color: #000018;
+}
+
+.main-grid-right h2 {
+    font-size: 32px;
+    color: #df9d51;
+}
+
+.main-grid-right h3 {
+    color: #f2f3fb;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.main-grid-right p {
+    color: #828397;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.main-grid-right hr {
+    border: none;
+    height: 1px;
+    background-color: #3b3b53;
+}
+
+/* Posts */
+
+.posts {
+    margin-top: 4%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.post div {
+    margin-left: 10px;
+}
+
+.posts h4 {
+    color: #c7c8c3;
+    font-size: 24px;
+}
+
+.posts h5 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.posts p {
+    max-width: 70%;
+    line-height: 1.5;
+}
+
+.posts img {
+    height: auto;
+    width: 100%;
+}
