@@ -26,33 +26,33 @@ p {
 /* Navbar */
 
 .navbar {
-    padding: 0;
-    margin: 0;
     margin-bottom: 2%;
-    width: 84vw;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .navbar a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: calc(6px + 0.6vw); /* Set minimum font size */
     margin-left: 20px;
+}
+
+.navbar-left {
+    width: 5vw;
+    align-self: center;
+} 
+
+.navbar-right {
+    align-self: center;
 }
 
 .navbar a:link {
     color: #696468;
 }
 
-/* .navbar a:visited {
-    color: purple;
-} */
-
 .navbar a:hover {
     color: blue;
-}
-
-.navbar-right {
-    float: right;
-    margin-top: 10px;
 }
 
 /* Main Grid */
@@ -80,13 +80,19 @@ p {
 }
 
 .tagline {
-    font-size: 54px;
+    font-size: 4.3vw;
     line-height: 1;
     margin-right: 5px;
 }
 
+.tagline-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .tagline-desc {
-    font-size: 16px;
+    font-size: calc(6px + 0.7vw); /* Set minimum font size */
     line-height: 1.6;
     margin-left: 5px;
 }
@@ -95,12 +101,14 @@ p {
     background-color: #fb5659;
     border: none;
     color: white;
-    padding: 10px 16px;
+    padding: 1vw 1.5vw;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.3vw;
     letter-spacing: 3px;
+    align-self: flex-start;
+    margin-top: 1vw;
 }
 
 .read-more-button:hover {
@@ -112,27 +120,26 @@ p {
 }
 
 .main-grid-right {
-    /* margin: 10px; */
-    padding: 25px;
+    padding: 2vw;
     background-color: #000018;
 }
 
 .main-grid-right h2 {
-    font-size: 32px;
+    font-size: 2.5vw;
     color: #df9d51;
 }
 
 .main-grid-right h3 {
     color: #f2f3fb;
-    font-size: 20px;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+    margin-top: 1vw;
 }
 
 .main-grid-right p {
     color: #828397;
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 1.3vw;
+    margin-bottom: 1vw;
 }
 
 .main-grid-right hr {
@@ -160,19 +167,20 @@ p {
 
 .posts h4 {
     color: #c7c8c3;
-    font-size: 24px;
+    font-size: 2vw;
 }
 
 .posts h5 {
     margin-top: 8px;
     margin-bottom: 8px;
-    font-size: 16px;
+    font-size: 1.3vw;
     font-weight: 800;
 }
 
 .posts p {
     max-width: 70%;
     line-height: 1.5;
+    font-size: calc(6px + 0.5vw); /* Set minimum font size */
 }
 
 .posts img {
